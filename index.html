@@ -4,75 +4,144 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PabloCyber7 - SOC Analyst</title>
+  
+  <!-- Íconos de Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
-   @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-
-    .blink {
-      animation: blink 10.5s infinite;
-    }
-
+    /* Fondo general */
     body {
-      background-image: url('imagen20.png');
+      background-image: url('imagen20.png'); /* Usa tu imagen subida */
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      color: #00ff99;
-      font-family: 'Courier New', monospace;
       margin: 0;
-      padding: 2rem;
+      padding: 0;
+      font-family: 'Courier New', monospace;
+      color: #00ff99;
     }
 
-    a {
-      color: #00ffff;
+    /* Efecto parpadeante */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .blink {
+      animation: blink 1.5s infinite;
     }
 
-    .section {
-      margin-top: 2rem;
-    
-     header {
+    /* Cabecera */
+    header {
       text-align: center;
       padding: 2rem 1rem;
       background-color: rgba(0, 0, 0, 0.6);
       border-bottom: 2px solid #00ff99;
-}
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
     .eslogan {
       font-size: 1.2rem;
       color: #00ffff;
       margin-top: 0.5rem;
-}
+    }
 
+    /* Menú de navegación */
+    nav {
+      background-color: #000000d0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5rem;
+    }
+    nav li {
+      margin: 0 1rem;
+    }
+    nav a {
+      color: #00ff99;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+
+    /* Secciones */
+    .section {
+      padding: 3rem 2rem;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 2rem;
+      border-radius: 15px;
+    }
+    h2 {
+      color: #00ffff;
+    }
+
+    /* Redes sociales */
+    .social-icons {
+      margin-top: 1rem;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 1.8rem;
+      color: #00ff99;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #00ffff;
+    }
   </style>
 </head>
+
 <body>
-  <div class="container">
-   <header>
-   <h1 class="blink">PabloCyber7</h1>
-   <p class="eslogan">SOC Analyst | Cybersecurity | Python Scripting</p>
-   </header>
 
+  <header>
+    <!-- Aquí después agregamos tu logo -->
+    <h1 class="blink">PabloCyber7</h1>
+    <p class="eslogan">SOC Analyst | Blue Team | Python Scripting</p>
+  </header>
 
-    <div class="section">
-      <h2>🧠 Sobre mí</h2>
-      <p>Bienvenido a mi sitio personal de ciberseguridad. Aquí comparto mis proyectos, herramientas y contenido educativo.</p>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobremi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio" class="section">
+    <h2>🧠 Bienvenido</h2>
+    <p>Este sitio fue creado por PabloCyber7 para compartir conocimientos de ciberseguridad, herramientas, proyectos y material educativo.</p>
+  </section>
+
+  <section id="sobremi" class="section">
+    <h2>🧑‍💻 Sobre mí</h2>
+    <p>Soy analista SOC en formación, especializado en detección de amenazas, análisis de eventos, scripting en Python y PowerShell, con enfoque en la seguridad ofensiva y defensiva.</p>
+  </section>
+
+  <section id="proyectos" class="section">
+    <h2>🛠️ Proyectos</h2>
+    <p>Actualmente trabajando en herramientas de recolección de logs, detección de malware, y laboratorios de práctica SOC. Próximamente estarán disponibles aquí.</p>
+  </section>
+
+  <section id="contacto" class="section">
+    <h2>📬 Contacto</h2>
+    <p>Conectá conmigo en redes sociales:</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/tu_usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/@tu_canal" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://github.com/PabloCyber7" target="_blank"><i class="fab fa-github"></i></a>
     </div>
+  </section>
 
-    <div class="section">
-      <h2>📎 Enlaces importantes</h2>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/tu_usuario" target="_blank">LinkedIn</a></li>
-        <li><a href="https://www.youtube.com/@tu_canal" target="_blank">YouTube</a></li>
-        <li><a href="https://github.com/PabloCyber7" target="_blank">Mi GitHub</a></li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>📂 Proyectos y herramientas</h2>
-      <p>Próximamente agregaré mis scripts en PowerShell y Python, análisis de logs y más.</p>
-    </div>
-  </div>
 </body>
 </html>
