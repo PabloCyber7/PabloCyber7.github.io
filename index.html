@@ -136,6 +136,12 @@
       <a href="https://github.com/PabloCyber7" target="_blank"><i class="fab fa-github"></i></a>
     </div>
   </section>
-
+  <script>
+    // Selecciona todos los enlaces <a>
+    document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  </script>
 </body>
 </html>
