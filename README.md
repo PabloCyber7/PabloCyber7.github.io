@@ -9,10 +9,10 @@ Podés visitarlo aquí 👉 [https://PabloCyber7.github.io](https://PabloCyber7.
 
 ## 🔎 ¿Quién soy?
 
-Soy un apasionado de la ciberseguridad, con foco en el rol de **Analista SOC**.  
+Tengo conocimientos en ciberseguridad, con foco en el rol de **Analista SOC**.  
 Estoy en constante formación y comparto mis conocimientos mediante:
 
-- Scripts en **PowerShell y Python**
+- Scripts en **PowerShell/Bash y Python**
 - Análisis de logs
 - Herramientas propias para detección y respuesta
 - Videos educativos y prácticos en YouTube
