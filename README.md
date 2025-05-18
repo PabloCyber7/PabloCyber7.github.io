@@ -1,6 +1,6 @@
 # 👨‍💻 PabloCyber7.github.io
 
-Bienvenido a mi sitio web profesional sobre **Cybersecurity, SOC Analyst, Scripting y Python**.
+Bienvenido a uno de mis sitios web profesional sobre **Cybersecurity, SOC Analyst, Scripting y Python**.
 
 Este repositorio aloja mi sitio publicado con GitHub Pages.  
 Podés visitarlo aquí 👉 [https://PabloCyber7.github.io](https://PabloCyber7.github.io)
@@ -21,8 +21,8 @@ Estoy en constante formación y comparto mis conocimientos mediante:
 
 ## 🌐 Enlaces importantes
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/tu_usuario)
-- 📺 [YouTube](https://www.youtube.com/@tu_canal)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/PabloCyber7)
+- 📺 [YouTube](https://www.youtube.com/@PabloCyber7)
 - 🧰 [Mi GitHub](https://github.com/PabloCyber7)
 
 ---
